@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ddns-no-ip-updater"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ddns_no_ip_updater"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.1"
+structlog = "^23.1.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
